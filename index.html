@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Animasi slider CSS -->
+    <link rel="stylesheet" href="css/animasi.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>Kuliner.com</title>
+
+</head>
+
+<body>
+    <!-- Start header  -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="header-area">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="header-top-left">
+                                    <div class="top-email">
+                                        <i class="fa fa-envelope"></i>
+                                        <span>ahmadtedi@gmail.com</span>
+                                    </div>
+                                    <div class="top-phone">
+                                        <i class="fa fa-phone"></i>
+                                        <span>087883816678</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="header-top-right">
+                                    <nav>
+                                        <ul class="top-social-nav">
+                                            <li><a href="https://www.facebook.com/tdxsoekamti.cuwakeps" target="_blank"><span
+                                                        class="fab fa-facebook"></span></a></li>
+                                            <li><a href="https://www.instagram.com/ahmadtedi_/" target="_blank"><span
+                                                        class="fab fa-instagram"></span></a></li>
+                                            <li><a href="https://twitter.com/AmikomJogja?lang=en" target="_blank"><span
+                                                        class="fab fa-twitter"></span></a></li>
+                                            <li><a href="https://www.youtube.com/channel/UCl-HaWwpTbJyN-5EfFfor8A/featured?view_as=subscriber"
+                                                    target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- finish header  -->
+
+    <!-- start navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light "
+            style="background-image: linear-gradient(to right, #ffc107 , #ffc107); " class="nav-menu">
+            <a class="navbar-brand" href="index.html" style=" color:white ; font-family:Segoe Script">
+                <img src="img/image/logo foodters balck.png" style="margin-left: 75%;" width="40" height="35"
+                    class="d-inline-block align-top" alt="kuy.com">
+                FOODTERS
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 10%;">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color:white"> <span class="fas fa-home"></span>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kai.html"> <span class="far fa-address-card"></span>
+                            Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="movie.html"> <span class="fas fa-clipboard-list"></span>
+                            Resep</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=".html" id="menu"> <span class="fas fa-video"></span>
+                            Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=".html" id="menu"> <span class="fas fa-box"></span> Kirim Resep</a>
+                    </li>
+                </ul>
+                <div class="login" style="margin-right: 0,5%">
+                    <ul class="nav navbar-nav navbar-right" id="menu-login">
+                        <li style="padding-top:5px;"><a onclick="document.getElementById('id02').style.display='block' "href="#" style="padding: 10px ; font-size: 14px;"><span
+                                    class="fas fa-user" class="glyphicon glyphicon-user"></span>
+                                Sign Up</a>
+                        </li>
+
+ <!-- start form sign up -->
+                        <div id="id02" class="modalsign">
+                            <form class="modal-contentsign animatesign" action="/action_page.php">
+                                <div class="imgcontainersign">
+                                    <span onclick="document.getElementById('id02').style.display='none'"
+                                        class="closesign" title="Close Modal">&times;</span>
+                                </div>
+                                <div class="containersign">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <label for="uname"><b>Email</b></label>
+                                    <input type="text" placeholder="Enter Email" name="uname" required>
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <label for="psw"><b>Repeat Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <input type="checkbox" name="remember"> Laki-laki
+                                    </label>
+                                    <input type="checkbox" name="remember"> Perempuan
+                                    </label>
+                                    <p style="padding-top:30px;">
+                                        <button type="submit">Create</button>
+                                        <span class="checkmark"></span>
+                                    </p>
+                                </div>
+                                <div class="containersign" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                                        class="cancelbtnsign">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            // Get the modal
+                            var modal = document.getElementById('id02');
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                        <!-- finish form sign up -->
+
+                        <li style="padding-top:5px;"><a onclick="document.getElementById('id01').style.display='block' "href="#"
+                                style="font-size: 14px ; padding-right: 20px; border-left: 1px solid rgb(255, 255, 255);"><span
+                                    class="fas fa-sign-in-alt" class="glyphicon glyphicon-log-in"
+                                    style="padding:5px; margin-left: 8px;"></span>
+                                Login</a>
+                        </li>
+
+<!-- start form login -->
+                        <div id="id01" class="modallogin">
+                            <form class="modal-contentlogin animatelogin" action="/action_page.php">
+                                <div class="imgcontainerlogin">
+                                    <span onclick="document.getElementById('id01').style.display='none'"
+                                        class="closelogin" title="Close Modal">&times;</span>
+                                    <img src="img/login/user.png" alt="Avatar" class="avatarlogin">
+                                </div>
+                                <div class="containerlogin">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <button type="submit">Login</button>
+                                    <label>
+                                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                                    </label>
+                                </div>
+                                <div class="containerlogin" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtnlogin">Cancel</button>
+                                    <span class="pswlogin">Forgot <a href="#">password?</a></span>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            // Get the modal
+                            var modal = document.getElementById('id01');
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                        <!-- finish form login -->
+
+                        <li>
+                            <a href="contact.html">
+                                <button type="button" class="btn btn-outline-primary">Contact Us</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- finish navbar -->
+
+    <!-- start bootstrap slider -->
+    <script>
+        var elem = document.getElementById("myvideo");
+
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) {
+                /* Firefox */
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) {
+                /* Chrome, Safari & Opera */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                /* IE/Edge */
+                elem.msRequestFullscreen();
+            }
+        }
+    </script>
+
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 500px; width: 100%;">
+                    <video autoplay loop id="myVideo" class="d-block w-100" alt="...">
+                         <!-- <source src="video/Explore.m4v" type="video/mp4">  -->
+                    </video>
+                    <div class="carousel-caption d-none d-md-block animated flip delay-0s" style="margin-bottom:11%">
+                        <h5>Enjoy Your</h5>
+                        <h1 style="font-size:70PX; font-family:Lucida Handwriting">HOLIDAY</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/image/Background 1.4.jpg" class="d-block w-100" alt="..." style="height:500px">
+                    <div class="carousel-caption d-none d-md-block animated bounceInDown delay-1s"
+                        style="margin-bottom:11%">
+                        <h1>FOODTERS</h1>
+                        <p>"Temukan Masakan Favorite Kamu"</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/image/Background 1.1.jpg" class="d-block w-100" alt="..." style="height:500px">
+                    <div class="carousel-caption d-none d-md-block animated lightSpeedIn delay-1s"
+                        style="margin-bottom:11%">
+                        <h1>FOODTERS</h1>
+                        <p>"Temukan Masakan Favorite Kamu"</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- finish bootstrap slider -->
+
+    <!-- start most popular destination -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 text-center" id="popular">Resep Popular</h1>
+            <div class="row mt-3 justify-content-center">
+                    <div class="col-md-9">
+                        <hr class="new2">
+                        <h6 style="padding-top: 3%; padding-left: 16%;">"Your diet is a bank account. Good food choices are good investments."</h6>
+                        <div class="input-group mb-3" id="polaroid-search">
+                            <input type="text" class="form-control" placeholder="Find The Reclpe In Here . . .">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button" id="search-button">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <hr class="new2">
+            <div class="card-deck" id="row-up">
+                <div class="card" id="row-up-shadow">
+                    <img src="img/popular/8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pempek</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                        <a href="https://www.universalstudioshollywood.com/promotions/general-admission-ticket-30/?channel=sem&source=gog&campaign=ush&media=paid&category=directresponse:intl_intl:en_all_lang:ga_nooff:b:na&gclid=EAIaIQobChMIg5irysCj4wIVUCQrCh15uAgGEAAYASAAEgIivPD_BwE#" class="btn btn-primary stretched-link">View Detail</a>
+                    </div>
+                </div>
+                <div class="card" id="row-up-shadow">
+                    <img src="img/popular/9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rendang</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                        <a href="https://www.obonparis.com/id/magazine/eiffel-tower" class="btn btn-primary stretched-link">View Detail</a>
+                    </div>
+                </div>
+                <div class="card" id="row-up-shadow">
+                    <img src="img/popular/10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sayur Ubi</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                        <a href="https://www.sydneyoperahouse.com/" class="btn btn-primary stretched-link">View Detail</a>
+                    </div>
+                </div>
+                <div class="card" id="row-up-shadow">
+                    <img src="img/popular/11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rangerti</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                        <a href="#" class="btn btn-primary stretched-link">View Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card" id="row-up-shadow">
+                    <img src="img/image/3.9 Lenggang.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="text-align:center;">
+                        <h5 class="card-title">Lenggang</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                        <a href="https://www.indonesiakaya.com/jelajah-indonesia/detail/raja-ampat-surga-petualangan-dunia-di-ujung-papua" class="btn btn-primary stretched-link">View Detail</a>
+                    </div>
+                </div>
+                <div class="card" id="row-up-shadow">
+                    <img src="img/image/3.12 Malbi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="text-align:center;">
+                        <h5 class="card-title">Malbi</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                        <a href="#" class="btn btn-primary stretched-link">View Detail</a>
+                    </div>
+                </div>
+                <div class="card" id="row-up-shadow">
+                    <img src="img/image/3.10 Celimpungan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="text-align:center;">
+                        <h5 class="card-title">Celimpungan</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                        <a href="https://www.colosseum-rome-tickets.com/?gclid=EAIaIQobChMIuemgycWj4wIVlzUrCh0UrQVNEAAYASAAEgJvy_D_BwE&utm_expid=74432767-11.dbgox9KWRkq-5dThk06AUw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F" class="btn btn-primary stretched-link">View Detail</a>
+                    </div>
+                </div>
+                <div class="card" id="row-up-shadow">
+                    <img src="img/image/3.11 Laksa.jpg" class="card-img-top" alt="...">
+                    <div class=" card-body" style="text-align:center;">
+                        <h5 class="card-title">Maksa</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci</p>
+                        <a href="http://www.discoverhongkong.com/id/see-do/culture-heritage/chinese-temples/big-buddha-and-po-lin-monastery.jsp" class="btn btn-primary stretched-link">View Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="text-align:center; padding-top: 4%;">
+                <div class="col-md-12">
+                    <a href="xperience.html"><button type="button" class="btn btn-outline-primary"
+                            style="text-align:center;">View More
+                            Destination</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- finish most popular destination -->
+
+ <!-- UP -->
+
+ <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0" id="updown">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Sumatera Selatan
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row-indo">
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/3.1 Tekwan.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Tekwan</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/3.2 Pempek.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Pempek</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/3.3 Mie Celor.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Mie Celor</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-indo">
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/3.4 Burgo.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Burgo</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/3.11 Laksa.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Laksa</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/3.7 Tempoyak.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Tempoyak</h2>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0" id="updown">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Sumatera Utara
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row-indo">
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/1.1 Ikan Arsik.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Ikan Arsik</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/1.3 Sambal Tuk Tuk.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Sambal Tuk Tuk</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/1.6 Lontong Medan.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Lontong Medan</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-indo">
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/1.4 Kerang Rebus.JPG" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Kerang Rebus</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/1.6 Lontong Medan.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Lontong Medan</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo">
+                                    <img src="img/image/1.3 Sambal Tuk Tuk.jpg" alt="Jane">
+                                    <div class="container-indo">
+                                        <h5>Sambal Tuk Tuk</h5>
+                                        <p><button class="button-indo">Search</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0" id="updown">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Sumatera Barat
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row-indo">
+                            <div class="column-indo">
+                                <div class="card-indo-group">
+                                    <img src="img/image/2.7 Gulai Lokan.jpg" alt="Jane">
+                                    <div class="container-indo-group">
+                                        <h5>Gulai Lokan</h5>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p><button class="button-indo-group">Find Tickets</button></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo-group">
+                                    <img src="img/image/2.6 Bika Bakar.jpg" alt="Jane">
+                                    <div class="container-indo-group">
+                                        <h5>Bika Bakar</h5>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p><button class="button-indo-group">Find Tickets</button></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                <div class="card-indo-group">
+                                    <img src="img/image/2.5 Lamang Tapai.jpg" alt="Jane">
+                                    <div class="container-indo-group">
+                                        <h5>Lamang Tapai</h5>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p><button class="button-indo-group">Find Tickets</button></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column-indo">
+                                    <div class="card-indo-group">
+                                        <img src="img/image/2.1 Rendang.jpg" alt="Jane">
+                                        <div class="container-indo-group">
+                                            <h5>Rendang</h5>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p><button class="button-indo-group">Find Tickets</button></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column-indo">
+                                        <div class="card-indo-group">
+                                            <img src="img/image/2.5 Lamang Tapai.jpg" alt="Jane">
+                                            <div class="container-indo-group">
+                                                <h5>Lamang Tapai</h5>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <p><button class="button-indo-group">Find Tickets</button></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column-indo">
+                                            <div class="card-indo-group">
+                                                <img src="img/image/2.7 Gulai Lokan.jpg" alt="Jane">
+                                                <div class="container-indo-group">
+                                                    <h5>Gulai Lokan</h5>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p><button class="button-indo-group">Find Tickets</button></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- DOWN -->
+
+    <!-- start hotel-partner -->
+    <div class="jumbotron jumbotron-fluid" id="hotel-partner">
+        <div class="container">
+            <h1 class="display-4 text-center" id="popular">Hotel Partner
+            </h1>
+            <hr class="new2">
+            <div class="row" id="row-up">
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/1.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/2.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/3.jpg" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/4.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/5.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/6.jpg" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="text-align: center; padding-bottom: 25px;">
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/7.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/8.jpg" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/9.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/10.jpg" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/11.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/12.png" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="text-align: center; padding-bottom: 25px;">
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/13.jpg" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/14.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/15.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/16.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/17.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/18.png" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="text-align: center;">
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/19.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/20.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/21.jpg" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/22.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/23.png" width="100" height="100">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a href="">
+                        <img href="" src="img/hotel/24.jpg" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- finish hotel-partner -->
+
+    <!-- Start footer -->
+    <footer id="footer">
+        <!-- start footer bottom -->
+        <div class="footer-bottom"
+        style="background-image: linear-gradient(to right, #ffc107 , #ffc107); " class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-area">
+                    <p>&copy; All Right Reserved. Designed by <a href="index.html" rel="nofollow">ahmadtedi_</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- end footer bottom -->
+    </footer>
+    <!-- Finish footer -->
+
+    <!-- start btn to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- finish btn to top -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/proper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
